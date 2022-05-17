@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*Header*/
+
+.header{
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: 750px 50%;
+	height: 180px;
+	width: 100%;
+}
+
+.titulo{
+	height: 120px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.titulo p{
+	font-size: 3rem;
+	margin-left: 30px;	
+}
+
+.titulo img{
+	height: 100px;
+}
+
+.lista{
+	height: 115px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	font-size: 1.5rem;
+	padding: 7.5px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.lista a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/*Contenido Index*/
+
+.contenedor{
+	height: 630px;
+	background-image: url("https://limrasales.in/wp-content/uploads/2022/01/hvac.jpg");
+	background-position: center;
+}
+
+.item{
+	text-align: center;
+	padding: 20px;
+	font-size: 2rem;
+	padding-top: 75px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+.item a{
+	text-decoration: none;
+	color: black;
+}
+
+
+/*Contenido Servicios*/
+
+.contenedorservicios{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.texto{
+	text-align: center;
+	width: 50%;
+	height: 500px;
+}
+
+.texto p{
+	font-size: 1.5rem;
+}
+
+.texto img{
+	height: 400px;
+	padding: 25px;
+}
+
+/*Footer*/
+
+.logos{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 150px;
+	
+}
+
+.logos img{
+	height: 130px;
+}
+
+
