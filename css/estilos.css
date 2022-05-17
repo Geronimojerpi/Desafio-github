@@ -14,6 +14,7 @@
 	grid-template-columns: 750px 50%;
 	height: 180px;
 	width: 100%;
+	background: linear-gradient(90deg, rgba(84,204,118,1) 0%, rgba(150,102,54,1) 49%, rgba(132,107,200,1) 100%);
 }
 
 .titulo{
@@ -46,30 +47,48 @@
 .lista a{
 	text-decoration: none;
 	color: black;
+	font-weight: 700;
+	transition: all 250ms;
+
+
 }
+
+.lista a:hover{
+	background-color: green;
+	padding: 20px;
+	transform: scale(1.0);
+}
+
 
 
 
 /*Contenido Index*/
 
 .contenedor{
-	height: 630px;
+	height: 699px;
 	background-image: url("https://limrasales.in/wp-content/uploads/2022/01/hvac.jpg");
 	background-position: center;
 }
 
 .item{
 	text-align: center;
-	padding: 20px;
-	font-size: 2rem;
-	padding-top: 75px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
+	font-size: 2.5rem;
+	padding-top: 100px;
+	
 }
 
 .item a{
 	text-decoration: none;
-	color: black;
+	color: #06CAFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	transition: all 250ms;
+}
+
+.item a:hover{
+	background-color: grey;
+	padding: 20px;
+	transform: scale(1.0);
 }
 
 
@@ -78,12 +97,14 @@
 .contenedorservicios{
 	display: flex;
 	flex-wrap: wrap;
+	padding: 90px 90px 80px 80px;
 }
 
 .texto{
 	text-align: center;
 	width: 50%;
 	height: 500px;
+	transition: all 250ms;
 }
 
 .texto p{
@@ -95,18 +116,23 @@
 	padding: 25px;
 }
 
+.texto:hover{
+	transform: scale(1.1);
+} 
+
 /*Footer*/
 
 .logos{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: 150px;
+	height: 100px;
+	background: linear-gradient(90deg, rgba(84,204,118,1) 0%, rgba(150,102,54,1) 49%, rgba(132,107,200,1) 100%);
 	
 }
 
 .logos img{
-	height: 130px;
+	height: 75px;
 }
 
 
